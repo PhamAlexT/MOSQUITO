@@ -14,8 +14,8 @@ Y_TRAIN_EXT = "_train.solution"
 X_TEST_EXT = "_test.data"
 X_VALID_EXT = "_valid.data"
 CHALLENGE_NAME = "malaria"
-RAW_DATA_DIR = "/home/estrade/Bureau/Teaching/L2-ML/challenges/MediChal/raw/malaria_input_data"
-PRE_DATA_DIR = "/home/estrade/Bureau/Teaching/L2-ML/challenges/MediChal/preprocessed/malaria_input_data"
+PRE_DATA_DIR = None
+RAW_DATA_DIR = None
 DATA_DIR = PRE_DATA_DIR
 
 

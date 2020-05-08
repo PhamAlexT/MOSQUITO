@@ -35,7 +35,7 @@ __author__ = "MOSQUITO"
 
 
 class ModelPreprocessed(BaseEstimator, ClassifierMixin):
-    def __init__(self, classifier = RandomForestClassifier(random_state = 42, n_estimators = 100, max_depth=100)):
+    def __init__(self, classifier = RandomForestClassifier(random_state = 42, n_estimators = 760, max_depth=28)):
         '''
         Best model for classification in the preprocessed challenge
          args:
@@ -86,7 +86,7 @@ class ModelPreprocessed(BaseEstimator, ClassifierMixin):
 
 
 class ModelRaw(BaseEstimator, ClassifierMixin):
-    def __init__(self, classifier = RandomForestClassifier(random_state = 42, n_estimators = 100, max_depth=100)):
+    def __init__(self, classifier = RandomForestClassifier(random_state = 42, n_estimators = 760, max_depth=28)):
         '''
         Best model for classification in the raw challenge
          args: 
@@ -132,7 +132,7 @@ class ModelRaw(BaseEstimator, ClassifierMixin):
       return self
 
 
-# Adapt to Codalab interface
+# Adpat to Codalab interface
 # ModelPreprocessed for preprocessed challenge
 # ModelRaw for raw challenge
-model = ModelPreprocessed
+model = ModelRaw

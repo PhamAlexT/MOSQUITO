@@ -113,7 +113,7 @@ def main():
 
 
 
-    if (choice!=1):
+    if True:
         #plot score of 5 different model
         model_name = ["Nearest Neighbors","Decision Tree",
                       "Random Forest",  "AdaBoost",
